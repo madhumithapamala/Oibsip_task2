@@ -1,5 +1,4 @@
 package java_project1;
-
 import java.io.*;
 import java.util.*;
 public class guessnumber{
