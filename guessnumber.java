@@ -22,18 +22,18 @@ public class guessnumber{
             }
             else if (guess>num){
                 if (guess-num>25){
-                    System.out.println("Extremely high");
+                    System.out.println("your number is Extremely high");
                 }
                 else{
-                    System.out.println("Little high");
+                    System.out.println("your number is Little high");
                 }
             }
             else{
                 if (num-guess>25){
-                    System.out.println("Extremely low");
+                    System.out.println("your number is Extremely low");
                 }
                 else{
-                    System.out.println("Little low");
+                    System.out.println("your number is Little low");
                 }
             }
             score-=10;
